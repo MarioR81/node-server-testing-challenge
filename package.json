@@ -5,10 +5,8 @@
   "main": "server.js",
   "scripts": {
     "test": "jest --watch",
+    "start": "node index.js ",
     "server": "nodemon index.js"
-  },
-  "jest": {
-    "testEnvironment": "node"
   },
   "repository": {
     "type": "git",
@@ -36,5 +34,8 @@
     "knex": "^0.20.13",
     "node": "^13.11.0",
     "sqlite3": "^4.1.1"
+  },
+  "jest": {
+    "testEnviroment": "node"
   }
 }
